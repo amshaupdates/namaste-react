@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
 // reactElement() is an object which gets converted into HTML that browser understands.
 
 const parent = React.createElement(
@@ -7,7 +10,7 @@ const parent = React.createElement(
         React.createElement(
             "div",
             {id: "child"},
-            [React.createElement("h1", {}, "I'm an h1 tag"), React.createElement("h2", {}, "I'm an h2 tag")]
+            [React.createElement("h1", {}, "This is Namaste React."), React.createElement("h2", {}, "I'm an h2 tag")]
         ),
         React.createElement(
             "div",
